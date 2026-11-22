@@ -64,32 +64,5 @@ Example:
 BASE_URL=https://wedev-api.sky.pro/api/kanban/
 ```
 
-## Testing
-
-The project uses `Jest` for unit tests.
-
-Test files:
-
-- [utils\calculatingProgress.test.ts](C:\Users\user\Desktop\Все\Skypro\diploma-work\src\utils\calculatingProgress.test.ts)
-- [utils\croppingLines.test.ts](C:\Users\user\Desktop\Все\Skypro\diploma-work\src\utils\croppingLines.test.ts)
-- [utils\FetchRightCover.test.ts](C:\Users\user\Desktop\Все\Skypro\diploma-work\src\utils\FetchRightCover.test.ts)
-- [utils\fetchSelectedCourses.test.ts](C:\Users\user\Desktop\Все\Skypro\diploma-work\src\utils\fetchSelectedCourses.test.ts)
-
-## Error Handling
-
-API calls are located in [`\services\`](C:\Users\user\Desktop\Все\Skypro\diploma-work\src\services).
-
-The app uses a shared pattern:
-
-- API functions display error messages
-- User interface components display error messages encountered by the user
-
-This is applied to:
-
-- catalog loading
-- auth flows
-- add/remove course actions
-- workout loading
-- workout progress loading and saving
 
 
